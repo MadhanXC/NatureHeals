@@ -1,0 +1,93 @@
+
+{
+  "entities": {
+    "Enrollment": {
+      "title": "Enrollment",
+      "description": "A record of a student enrolling in a course",
+      "type": "object",
+      "properties": {
+        "courseId": {
+          "type": "string",
+          "description": "The unique identifier for the course"
+        },
+        "courseTitle": {
+          "type": "string",
+          "description": "The title of the course"
+        },
+        "studentName": {
+          "type": "string",
+          "description": "Full name of the student"
+        },
+        "studentEmail": {
+          "type": "string",
+          "format": "email",
+          "description": "Email address of the student"
+        },
+        "studentPhone": {
+          "type": "string",
+          "description": "Phone number of the student"
+        },
+        "message": {
+          "type": "string",
+          "description": "Optional message or goals from the student"
+        },
+        "status": {
+          "type": "string",
+          "enum": ["pending", "confirmed"],
+          "description": "The status of the enrollment"
+        },
+        "createdAt": {
+          "type": "string",
+          "format": "date-time",
+          "description": "Timestamp when enrollment was created"
+        }
+      },
+      "required": ["courseId", "studentName", "studentEmail"]
+    },
+    "ConsultationRequest": {
+      "title": "ConsultationRequest",
+      "description": "A request for an online consultation with Healer Vasanthi",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "phone": { "type": "string" },
+        "issue": { "type": "string" },
+        "timePreference": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "email", "phone", "issue"]
+    },
+    "ContactInquiry": {
+      "title": "ContactInquiry",
+      "description": "A general inquiry from the contact form",
+      "type": "object",
+      "properties": {
+        "name": { "type": "string" },
+        "email": { "type": "string", "format": "email" },
+        "inquiryType": { "type": "string" },
+        "message": { "type": "string" },
+        "createdAt": { "type": "string", "format": "date-time" }
+      },
+      "required": ["name", "email", "message"]
+    }
+  },
+  "auth": {
+    "providers": ["google.com"]
+  },
+  "firestore": {
+    "/enrollments/{enrollmentId}": {
+      "schema": "Enrollment",
+      "description": "Collection of course enrollments"
+    },
+    "/consultations/{consultationId}": {
+      "schema": "ConsultationRequest",
+      "description": "Collection of online consultation requests"
+    },
+    "/inquiries/{inquiryId}": {
+      "schema": "ContactInquiry",
+      "description": "Collection of general contact form submissions"
+    }
+  }
+}

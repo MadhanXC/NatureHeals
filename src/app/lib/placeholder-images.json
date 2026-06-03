@@ -1,0 +1,95 @@
+
+{
+  "placeholderImages": [
+    {
+      "id": "hero-nature",
+      "description": "Lush green forest with sunlight filtering through trees",
+      "imageUrl": "https://picsum.photos/seed/nature-hero/1200/600",
+      "imageHint": "forest sun"
+    },
+    {
+      "id": "acupuncture-detail",
+      "description": "Acupuncture Fundamentals session detail",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450671/Accu1_as05dj.jpg",
+      "imageHint": "acupuncture needles"
+    },
+    {
+      "id": "meridian-theory",
+      "description": "Advanced Meridian Theory study image",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450669/Accu2_pidmcy.jpg",
+      "imageHint": "acupuncture map"
+    },
+    {
+      "id": "meditation-zen",
+      "description": "Deep meditation and mindfulness session",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450672/Meditation_mfbwpb.jpg",
+      "imageHint": "meditation zen"
+    },
+    {
+      "id": "breathing-sky",
+      "description": "Pranayama and Breathwork Practice",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450670/Breathing_wseibq.jpg",
+      "imageHint": "breathing practice"
+    },
+    {
+      "id": "mudra-hands",
+      "description": "Close up of hands performing a sacred mudra",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780452551/Mudras_wnbmun.jpg",
+      "imageHint": "yoga hands"
+    },
+    {
+      "id": "naturopathy-herbs",
+      "description": "Traditional Naturopathy Practice and Herbs",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450670/Naturopathy_pp8gut.jpg",
+      "imageHint": "naturopathy therapy"
+    },
+    {
+      "id": "camp-retreat",
+      "description": "Rejuvenation Camp - Healing Retreat Header",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780452555/Rejuvenation_qccxoa.jpg",
+      "imageHint": "mountain retreat"
+    },
+    {
+      "id": "healer-vasanthi",
+      "description": "Healer Vasanthi - Licensed Acupuncturist and Educator",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780446259/HEALER-VASANTHI-768x768_nnp3dd.jpg",
+      "imageHint": "healer woman"
+    },
+    {
+      "id": "mentor-david",
+      "description": "Mr. Y. David - Founder of PEAL and Mentor",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780446259/ydavid-768x731_erwa7o.jpg",
+      "imageHint": "mentor man"
+    },
+    {
+      "id": "reflexology-feet",
+      "description": "Relaxing foot massage focusing on pressure points",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450670/Reflex1_sejxj2.jpg",
+      "imageHint": "foot massage"
+    },
+    {
+      "id": "camp-2015",
+      "description": "Rejuvenation Camp - December 2015 Highlights",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780447084/Rejcmp1_ptxtd5.png",
+      "imageHint": "camp group"
+    },
+    {
+      "id": "camp-2016",
+      "description": "Rejuvenation Camp - February 2016 Highlights",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780447084/Rejcmp2_tal9qw.png",
+      "imageHint": "camp group"
+    },
+    {
+      "id": "camp-2017-hc",
+      "description": "Free Non-Medicine Therapy Camp - High Court March 2017",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780447084/Rejcmp3_q5pgso.png",
+      "imageHint": "consultation camp"
+    },
+    {
+      "id": "camp-2017-6th",
+      "description": "Free Non-Medicine Therapy Camp - Madurai 6th Battalion March 2017",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780447085/Rejcmp4_qjvusg.png",
+      "imageHint": "police consultation"
+    }
+  ]
+}

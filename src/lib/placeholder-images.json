@@ -1,0 +1,58 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-nature",
+      "description": "Lush green forest with sunlight filtering through trees",
+      "imageUrl": "https://picsum.photos/seed/nature-hero/1200/600",
+      "imageHint": "forest sun"
+    },
+    {
+      "id": "acupuncture-detail",
+      "description": "Acupuncture Fundamentals session detail",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450671/Accu1_as05dj.jpg",
+      "imageHint": "acupuncture needles"
+    },
+    {
+      "id": "meditation-zen",
+      "description": "Deep meditation and mindfulness session",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450672/Meditation_mfbwpb.jpg",
+      "imageHint": "meditation zen"
+    },
+    {
+      "id": "breathing-sky",
+      "description": "Peaceful blue sky with soft white clouds",
+      "imageUrl": "https://picsum.photos/seed/breathing/800/600",
+      "imageHint": "peaceful sky"
+    },
+    {
+      "id": "mudra-hands",
+      "description": "Close up of hands performing a sacred mudra",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780452551/Mudras_wnbmun.jpg",
+      "imageHint": "yoga hands"
+    },
+    {
+      "id": "naturopathy-herbs",
+      "description": "Assortment of fresh healing herbs and oils",
+      "imageUrl": "https://picsum.photos/seed/herbs/800/600",
+      "imageHint": "healing herbs"
+    },
+    {
+      "id": "camp-retreat",
+      "description": "Rejuvenation Camp - Healing Retreat Header",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780452555/Rejuvenation_qccxoa.jpg",
+      "imageHint": "mountain retreat"
+    },
+    {
+      "id": "healer-portrait",
+      "description": "The lead healer smiling in a natural setting",
+      "imageUrl": "https://picsum.photos/seed/healer/600/800",
+      "imageHint": "healer smile"
+    },
+    {
+      "id": "reflexology-feet",
+      "description": "Relaxing foot massage focusing on pressure points",
+      "imageUrl": "https://res.cloudinary.com/dh51trsfh/image/upload/v1780450670/Reflex1_sejxj2.jpg",
+      "imageHint": "foot massage"
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Primary Green: #5bb12f -> HSL 100 58% 44% */
+    /* Accent Purple: #532464 -> HSL 284 47% 27% */
+    --background: 100 40% 99%;
+    --foreground: 100 50% 10%;
+    --card: 0 0% 100%;
+    --card-foreground: 100 50% 10%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 100 50% 10%;
+    --primary: 100 58% 44%;
+    --primary-foreground: 100 100% 98%;
+    --secondary: 100 30% 94%;
+    --secondary-foreground: 100 60% 20%;
+    --muted: 100 20% 92%;
+    --muted-foreground: 100 30% 40%;
+    --accent: 284 47% 27%;
+    --accent-foreground: 284 100% 98%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 100 30% 90%;
+    --input: 100 30% 90%;
+    --ring: 100 58% 44%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 100 50% 5%;
+    --foreground: 100 10% 98%;
+    --card: 100 50% 7%;
+    --card-foreground: 100 10% 98%;
+    --popover: 100 50% 7%;
+    --popover-foreground: 100 10% 98%;
+    --primary: 100 58% 54%;
+    --primary-foreground: 100 50% 5%;
+    --secondary: 100 30% 15%;
+    --secondary-foreground: 100 10% 98%;
+    --muted: 100 30% 15%;
+    --muted-foreground: 100 30% 65%;
+    --accent: 284 47% 40%;
+    --accent-foreground: 100 10% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 100 10% 98%;
+    --border: 100 30% 20%;
+    --input: 100 30% 20%;
+    --ring: 100 58% 54%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground font-body antialiased;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@keyframes breathe {
+  0% { transform: scale(1); opacity: 0.8; }
+  50% { transform: scale(1.05); opacity: 1; }
+  100% { transform: scale(1); opacity: 0.8; }
+}
+
+.animate-breathe {
+  animation: breathe 8s ease-in-out infinite;
+}
