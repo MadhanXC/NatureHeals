@@ -29,9 +29,7 @@ export default function AboutPage() {
                   We believe NATURE offers us everything to live a Healthy and Happy life. 
                   Coexisting with Nature is the best way of life.
                 </p>
-                <p className="text-foreground font-medium italic">
-                  "We can feel the Ease and Betterment in Our Health once we start living in Harmony with Nature."
-                </p>
+              
               </div>
             </div>
           </div>
